@@ -32,11 +32,18 @@ Swagger Documentation : http://localhost:8085/swagger-ui.html
                "Accept-Charset":"UTF-8"
 ```
 
-### Docker
+### Jar file execution option 2 run application
+ - Open command line prompt
+ - Go to (cd to) project folder
+ - Go to build/libs directory
+ - execute command  ``` java -jar cluster-system-service.jar ```
+ - http://localhost:8085/swagger-ui.html
+
+### Docker Option 2 run application
  - To build docker image from docker file
-   ``` docker build -t cluster-system-service```
- - To run created docker image  ``` docker run <imageId> ```
- 
+   ``` docker build -t cluster-system-service .```
+ - To run created docker image  ``` docker run -p 8085:8085 -t cluster-system-service ```
+ - http://localhost:8085/swagger-ui.html
  
 ### Contribute
 Ravi Reddy 
