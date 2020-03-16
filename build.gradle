@@ -34,7 +34,7 @@ apply plugin: 'io.spring.dependency-management'
 
 
 group = 'com.poc.cluster'
-version '1.0'
+version ''
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
